@@ -1,0 +1,10 @@
+{
+  "name": "oucare-ts",
+  "dependencies": {
+    "lodash": "registry:npm/lodash#4.0.0+20160723033700"
+  },
+  "globalDependencies": {
+    "node": "registry:dt/node#6.0.0+20160817204926",
+    "q": "registry:dt/q#0.0.0+20160613154756"
+  }
+}
