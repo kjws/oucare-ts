@@ -3,17 +3,22 @@
   "version": "0.1.0",
   "description": "",
   "main": "./dist/index.js",
+  "dependencies": {
+    "q": "^1.4.1",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.39",
+    "@types/q": "0.0.32"
+  },
   "peerDependencies": {
-    "typescript": ">=1.8",
-    "typings": ">=1.3",
+    "typescript": "^2.0.3",
     "q": "^1.4.1",
     "lodash": "^4.13.1"
   },
   "scripts": {
-    "install": "typings install && tsc"
+    "install": "tsc"
   },
   "typings": "./dist/index.d.ts",
-  "author": "OUcare.com",
-  "dependencies": {},
-  "devDependencies": {}
+  "author": "OUcare.com"
 }
