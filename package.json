@@ -4,20 +4,20 @@
   "description": "",
   "main": "./dist/index.js",
   "dependencies": {
-    "q": "^1.4.1",
-    "lodash": "^4.13.1"
+    "lodash": "^4.17.15",
+    "q": "^1.5.1"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.39",
-    "@types/q": "0.0.32"
+    "@types/lodash": "^4.14.121",
+    "@types/q": "^1.5.2"
   },
   "peerDependencies": {
-    "typescript": "^2.0.3",
-    "q": "^1.4.1",
-    "lodash": "^4.13.1"
+    "typescript": "^3",
+    "q": "^1.5.1",
+    "lodash": "^4.17.15"
   },
   "scripts": {
-    "install": "tsc"
+    "postinstall": "tsc"
   },
   "typings": "./dist/index.d.ts",
   "author": "OUcare.com"
