@@ -29,3 +29,6 @@ typings/
 *.js
 *.js.map
 *.d.ts
+
+# its library depend on other project, do not use package-lock.json
+package-lock.json
